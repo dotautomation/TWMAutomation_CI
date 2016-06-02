@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104193" started-at="2016-04-15T13:41:20Z" finished-at="2016-04-15T13:43:04Z">
+  <suite name="MultiBrowserSuite" duration-ms="147368" started-at="2016-05-25T16:33:50Z" finished-at="2016-05-25T16:36:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104193" started-at="2016-04-15T13:41:20Z" finished-at="2016-04-15T13:43:04Z">
+    <test name="Search" duration-ms="147368" started-at="2016-05-25T16:33:50Z" finished-at="2016-05-25T16:36:18Z">
       <class name="com.totalwine.test.search.SearchNullTerms">
-        <test-method status="PASS" signature="SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@61443d8f]" name="SearchNullTermsTest" duration-ms="104182" started-at="2016-04-15T09:41:20Z" finished-at="2016-04-15T09:43:04Z">
+        <test-method status="PASS" signature="SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@6adca536]" name="SearchNullTermsTest" duration-ms="147355" started-at="2016-05-25T12:33:50Z" finished-at="2016-05-25T12:36:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchNullTermsTest -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.totalwine.test.search.SearchNullTerms@61443d8f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2016-04-15T09:43:04Z" finished-at="2016-04-15T09:43:04Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.totalwine.test.search.SearchNullTerms@6adca536]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2016-05-25T12:36:18Z" finished-at="2016-05-25T12:36:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchNullTermsTest status=SUCCESS method=SearchNullTerms.SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@61443d8f] output={null}]]]>
+                <![CDATA[[TestResult name=SearchNullTermsTest status=SUCCESS method=SearchNullTerms.SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@6adca536] output={null}]]]>
               </value>
             </param>
           </params>
@@ -23,6 +23,6 @@
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.totalwine.test.search.SearchNullTerms -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Search -->
+  </suite> <!-- MultiBrowserSuite -->
 </testng-results>
