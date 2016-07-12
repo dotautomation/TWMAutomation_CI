@@ -1,24 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="MultiBrowserSuite" duration-ms="147368" started-at="2016-05-25T16:33:50Z" finished-at="2016-05-25T16:36:18Z">
+  <suite name="MultiBrowserSuite" duration-ms="47729" started-at="2016-07-12T17:06:44Z" finished-at="2016-07-12T17:07:32Z">
     <groups>
     </groups>
-    <test name="Search" duration-ms="147368" started-at="2016-05-25T16:33:50Z" finished-at="2016-05-25T16:36:18Z">
+    <test name="Search" duration-ms="47729" started-at="2016-07-12T17:06:44Z" finished-at="2016-07-12T17:07:32Z">
       <class name="com.totalwine.test.search.SearchNullTerms">
-        <test-method status="PASS" signature="SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@6adca536]" name="SearchNullTermsTest" duration-ms="147355" started-at="2016-05-25T12:33:50Z" finished-at="2016-05-25T12:36:18Z">
+        <test-method status="FAIL" signature="SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@28f67ac7]" name="SearchNullTermsTest" duration-ms="47693" started-at="2016-07-12T13:06:44Z" finished-at="2016-07-12T13:07:32Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ersion":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://ocplugin/content/webexball_32.ico","icon64URL":null,"defaultLocale":{"name":"WebEx Productivity Tools","description":"Start WebEx One-Click Meeting","creator":"Cisco WebEx","homepageURL":"http://www.webex.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\WebEx\\Productivity Tools","installDate":1453841279197,"updateDate":1453841279197,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":31512585,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":true,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"1.0+","maxVersion":"99.*.*.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1468343208358	DeferredSave.extensions.json	DEBUG	Save changes
+1468343208358	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468343208358	addons.xpi-utils	DEBUG	Updating add-on states
+1468343208360	addons.xpi-utils	DEBUG	Writing add-ons list
+1468343208365	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468343208365	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468343208365	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468343208366	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1468343208367	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468343208367	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1468343208383	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468343208383	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468343208383	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468343208383	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468343208383	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468343208384	addons.manager	DEBUG	Starting provider: GMPProvider
+1468343208389	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468343208389	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468343208389	addons.manager	DEBUG	Starting provider: PluginProvider
+1468343208390	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468343208390	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468343208390	addons.manager	DEBUG	Completed startup sequence
+1468343211435	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468343211436	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468343211436	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468343212216	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468343212216	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468343212216	DeferredSave.extensions.json	DEBUG	Starting timer
+1468343212237	DeferredSave.extensions.json	DEBUG	Starting write
+1468343212253	addons.repository	DEBUG	No addons.json found.
+1468343212253	DeferredSave.addons.json	DEBUG	Save changes
+1468343212256	DeferredSave.addons.json	DEBUG	Starting timer
+1468343212296	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468343212296	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468343212296	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468343212309	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468343212309	DeferredSave.addons.json	DEBUG	Starting write
+1468343212386	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'PRT-4QRSD12', ip: '10.125.22.78', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ersion":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://ocplugin/content/webexball_32.ico","icon64URL":null,"defaultLocale":{"name":"WebEx Productivity Tools","description":"Start WebEx One-Click Meeting","creator":"Cisco WebEx","homepageURL":"http://www.webex.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\WebEx\\Productivity Tools","installDate":1453841279197,"updateDate":1453841279197,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":31512585,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":true,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"1.0+","maxVersion":"99.*.*.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1468343208358	DeferredSave.extensions.json	DEBUG	Save changes
+1468343208358	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468343208358	addons.xpi-utils	DEBUG	Updating add-on states
+1468343208360	addons.xpi-utils	DEBUG	Writing add-ons list
+1468343208365	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468343208365	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468343208365	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468343208366	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1468343208367	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468343208367	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1468343208383	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468343208383	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468343208383	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468343208383	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468343208383	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468343208384	addons.manager	DEBUG	Starting provider: GMPProvider
+1468343208389	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468343208389	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468343208389	addons.manager	DEBUG	Starting provider: PluginProvider
+1468343208390	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468343208390	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468343208390	addons.manager	DEBUG	Completed startup sequence
+1468343211435	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468343211436	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468343211436	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468343212216	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468343212216	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468343212216	DeferredSave.extensions.json	DEBUG	Starting timer
+1468343212237	DeferredSave.extensions.json	DEBUG	Starting write
+1468343212253	addons.repository	DEBUG	No addons.json found.
+1468343212253	DeferredSave.addons.json	DEBUG	Save changes
+1468343212256	DeferredSave.addons.json	DEBUG	Starting timer
+1468343212296	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468343212296	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468343212296	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468343212309	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468343212309	DeferredSave.addons.json	DEBUG	Starting write
+1468343212386	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'PRT-4QRSD12', ip: '10.125.22.78', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.totalwine.test.search.SearchNullTerms.SearchNullTermsTest(SearchNullTerms.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ersion":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://ocplugin/content/webexball_32.ico","icon64URL":null,"defaultLocale":{"name":"WebEx Productivity Tools","description":"Start WebEx One-Click Meeting","creator":"Cisco WebEx","homepageURL":"http://www.webex.com/"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\WebEx\\Productivity Tools","installDate":1453841279197,"updateDate":1453841279197,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":31512585,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":true,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"1.0+","maxVersion":"99.*.*.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true}
+1468343208358	DeferredSave.extensions.json	DEBUG	Save changes
+1468343208358	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468343208358	addons.xpi-utils	DEBUG	Updating add-on states
+1468343208360	addons.xpi-utils	DEBUG	Writing add-ons list
+1468343208365	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468343208365	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468343208365	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468343208366	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1468343208367	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468343208367	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1468343208383	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468343208383	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468343208383	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468343208383	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468343208383	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468343208384	addons.manager	DEBUG	Starting provider: GMPProvider
+1468343208389	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468343208389	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468343208389	addons.manager	DEBUG	Starting provider: PluginProvider
+1468343208390	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468343208390	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468343208390	addons.manager	DEBUG	Completed startup sequence
+1468343211435	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1468343211436	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1468343211436	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1468343212216	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468343212216	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468343212216	DeferredSave.extensions.json	DEBUG	Starting timer
+1468343212237	DeferredSave.extensions.json	DEBUG	Starting write
+1468343212253	addons.repository	DEBUG	No addons.json found.
+1468343212253	DeferredSave.addons.json	DEBUG	Save changes
+1468343212256	DeferredSave.addons.json	DEBUG	Starting timer
+1468343212296	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468343212296	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468343212296	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468343212309	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468343212309	DeferredSave.addons.json	DEBUG	Starting write
+1468343212386	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchNullTermsTest -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.totalwine.test.search.SearchNullTerms@6adca536]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2016-05-25T12:36:18Z" finished-at="2016-05-25T12:36:18Z">
+        <test-method status="FAIL" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.totalwine.test.search.SearchNullTerms@28f67ac7]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2016-07-12T13:07:32Z" finished-at="2016-07-12T13:07:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchNullTermsTest status=SUCCESS method=SearchNullTerms.SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@6adca536] output={null}]]]>
+                <![CDATA[[TestResult name=SearchNullTermsTest status=FAILURE method=SearchNullTerms.SearchNullTermsTest()[pri:0, instance:com.totalwine.test.search.SearchNullTerms@28f67ac7] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.totalwine.test.search.SearchNullTerms.takeScreenShotOnFailure(SearchNullTerms.java:240)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:709)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
