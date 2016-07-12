@@ -17,6 +17,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.totalwine.test.actions.SiteAccess;
@@ -43,10 +44,10 @@ public class SearchNullTerms {
 		writer.write("Search term,Search Type,All stores count,Did you mean?,Page Type,Top results,Categories");
 		writer.newLine();
 		
-		//File file = new File(ConfigurationFunctions.CHROMEDRIVERPATH);
-		//System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-		//WebDriver driver = new ChromeDriver();
-		driver = new FirefoxDriver();
+		File file = new File(ConfigurationFunctions.CHROMEDRIVERPATH);
+		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
+		WebDriver driver = new ChromeDriver();
+//		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		//driver.get(ConfigurationFunctions.accessURL+"/?remoteTestIPAddress=71.193.51.0");
 		//Thread.sleep(5000);
@@ -72,10 +73,10 @@ public class SearchNullTerms {
 	    	writer.write(SearchTerm+",");
 	    	writer.write(SearchType+",");
 	    	//Select Search Type
-	    	driver.findElement(By.cssSelector("span.search-left-cont-three-Lines")).click();
-	    	Thread.sleep(2000);
-	    	driver.findElement(By.cssSelector("div.suggestion.flyover > a[data-href=\""+SearchType+"\"]")).click();
-	    	Browser.PageLoad(driver);//Thread.sleep(2000);
+//	    	driver.findElement(By.cssSelector("span.search-left-cont-three-Lines")).click();
+//	    	Thread.sleep(2000);
+//	    	driver.findElement(By.cssSelector("div.suggestion.flyover > a[data-href=\""+SearchType+"\"]")).click();
+//	    	Browser.PageLoad(driver);//Thread.sleep(2000);
 			driver.findElement(By.id("header-search-text")).clear();
 		    driver.findElement(By.id("header-search-text")).sendKeys(SearchTerm); //Enter Search Term in box
 		    driver.findElement(By.cssSelector("a[class=\"search-right-cont-mini-search-logo analyticsSearch\"]")).click(); //Click search button
