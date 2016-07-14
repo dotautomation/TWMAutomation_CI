@@ -107,7 +107,6 @@ public class ConfigurationFunctions {
 			}
 		}
 	
-	
 	//Random number generator
 	public static int randInt() {
 
@@ -193,7 +192,6 @@ public class ConfigurationFunctions {
 	    Calendar cal = Calendar.getInstance();
 	    SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
 	    return sdf.format(cal.getTime());
-
 	  }
 	
 	//Reads and assimilates input parameters from Excel file
